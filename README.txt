@@ -1,5 +1,11 @@
 name: Mohsen Elhage
 
+mplemented an Uber-like application called CoVoiture, which maintains two lists of Users - one of Drivers and one of Customers. Each of these users has a current location in the city. A Customer can request a ride from the app and the closest Driver that meets the criteria is selected.
+
+Classes Overview:
+The application consisted of 9 classes, including Location, User, Customer, Driver, CustomerList, DriverList, CoVoiture, Controller, and View. The Location class contained map coordinates and street names, the User class contained CoVoiture user information, the Customer class represented a User who can hail a ride, the Driver class represented a User who can give a ride, the CustomerList class was a linked list of all Customers, the DriverList class was a linked list of all Drivers with a specialized findRide function, the CoVoiture class managed Drivers and Customers, the Controller class controlled the interaction of CoVoiture with the View, and the View class provided a menu, took input, and gave output.
+
+
 
 Classes:
 
